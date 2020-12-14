@@ -1,5 +1,5 @@
 Python Euterpea
-(c) Donya Quick 2016
+(c) Donya Quick 2016 (updated Dec 14, 2020 for Python 3 compatibility)
 
 Two versions of the PythonEuterpea are included:
 
@@ -16,5 +16,5 @@ To install:
 2. Run: python setup.py install
 
 Both versions of PythonEuterpea require the python-midi and pygame libraries. If not installed automatically, you can install them with:
-	pip install python-midi
+	pip install git+https://github.com/vishnubob/python-midi@feature/python3
 	pip install pygame
